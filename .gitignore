@@ -1,0 +1,41 @@
+# Secrets — JAMAIS sur GitHub
+.env
+.env.local
+*.key
+secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Environnements virtuels
+venv/
+.venv/
+env/
+ENV/
+
+# Éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.DS_Store
+
+# Données sensibles
+*.csv
+*.db
+*.sqlite
+
+# Logs
+*.log
+logs/
+
+# Docker
+.dockerignore
+Thumbs.db
